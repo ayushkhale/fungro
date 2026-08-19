@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div className="mb-8 mt-2">
               <a href="https://play.google.com/store/apps/details?id=com.wishbanc.funngro" target="_blank" rel="noopener noreferrer">
                 <img 
-                  src="/getinplay.png" 
+                  src={`${import.meta.env.BASE_URL}getinplay.png`}
                   alt="Download on Google Play and App Store" 
                   className="h-20 md:h-24 w-auto object-contain hover:scale-105 transition-transform cursor-pointer -ml-4"
                 />
@@ -39,7 +39,7 @@ export default function AboutSection() {
           {/* Right: visual */}
           <div className="relative">
             <img 
-              src="/heroimg.png" 
+              src={`${import.meta.env.BASE_URL}heroimg.png`}
               alt="Funngro Hero Background" 
               className="w-full h-auto drop-shadow-2xl rounded-3xl"
             />

@@ -158,7 +158,7 @@ export default function Company() {
             <div className="flex items-center justify-center md:justify-end">
               <div className="relative animate-float">
                 <img
-                  src="/genz3dvector"
+                  src={`${import.meta.env.BASE_URL}genz3dvector`}
                   alt="Gen-Z teens using Funngro"
                   className="w-full max-w-xl scale-110 drop-shadow-2xl"
                 />

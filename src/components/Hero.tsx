@@ -83,7 +83,7 @@ export default function Hero() {
         <div className="flex justify-center md:justify-end">
           <div className="relative animate-float">
             <img 
-              src="/floatinggen.png" 
+              src={`${import.meta.env.BASE_URL}floatinggen.png`}
               alt="Funngro Hero" 
               className="w-full max-w-2xl scale-110 drop-shadow-2xl" 
             />
