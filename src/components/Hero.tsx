@@ -1,4 +1,4 @@
-import { ArrowRight, TrendingUp, Users, Star, User } from 'lucide-react'
+import { ArrowRight, Star, User } from 'lucide-react'
 
 const stats = [
   { value: '70L+', label: 'Active Teens' },
